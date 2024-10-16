@@ -1,0 +1,113 @@
+body {
+    background-color: #EEF9BF;
+   
+
+}
+
+.site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Titulo do Jogo */
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    color: #75B79E;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* Cartas */
+
+.container{
+    position: relative;
+    width: calc(100vw - 350px);
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+
+.carta{
+    
+    width: 117px;
+    height: 146px;
+    border-radius: 5px;
+    background-color:#A7E9AF;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    transform-style: preserve-3d;
+    transition: all 1s;
+   
+
+}
+
+.carta:hover {
+    cursor: pointer;
+}
+
+.atras{
+
+    width: 100px;
+    height: 100px;
+
+    backface-visibility: hidden;
+}
+
+
+.frente{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+
+.virarCarta{
+    transform: rotateY(180deg);
+}
+
+
+
+
+img {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Responsividades*/
+
+@media (max-width:600px){
+
+
+    h1{
+        text-align: center;
+    }
+}
