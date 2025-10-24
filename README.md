@@ -82,18 +82,19 @@ git clone https://github.com/seu-usuario/parrot-card-game.git
 
 - Boas práticas de código limpo e semântico
 
---
+---
 ## 📱 Layout Responsivo
 
 O jogo foi desenvolvido para funcionar em diferentes dispositivos, adaptando o número de colunas e o tamanho das cartas conforme o tamanho da tela.
 
---
+---
 ## 🚀 Deploy
 
 Você pode jogar agora mesmo em:
 
 👉 [projeto-driven-parrot-game.vercel.app](projeto-driven-parrot-game.vercel.app) 
 
+---
 ## 👩‍💻 Autora
 
 Alexia Araújo de Lima
