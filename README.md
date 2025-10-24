@@ -50,7 +50,7 @@ git clone https://github.com/seu-usuario/parrot-card-game.git
 ### 3️⃣ Execute o projeto
   Basta abrir o arquivo index.html no navegador.
   Nenhuma instalação é necessária! 🌐
---
+---
 
 ## 🕹️ Como Jogar
 
